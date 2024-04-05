@@ -1,8 +1,3 @@
-# Define provider
-provider "aws" {
-  region = "us-west-2"  # Change to your desired region
-}
-
 # Create VPC
 resource "aws_vpc" "my_tf_vpc" {
   cidr_block = "10.0.0.0/16"  # Adjust CIDR block as needed
